@@ -1,0 +1,11 @@
+streamlit>=1.35
+groq>=0.9                     # live LLM judge + vision (optional; offline mock works without it)
+python-dotenv>=1.0
+numpy>=1.26
+scikit-learn>=1.3            # TF-IDF retrieval fallback (offline / blocked wifi)
+sentence-transformers>=2.7   # MiniLM embeddings -- real semantic vectors (primary backend)
+reportlab>=4.0               # PDF risk-report export
+pymupdf>=1.24                # PDF label ingestion
+pytesseract>=0.3             # OCR fallback for label images (needs system tesseract)
+pillow>=10.0
+pytest>=8.0
